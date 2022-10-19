@@ -1,0 +1,10 @@
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DAL\bin\Debug\DAL.dll.config
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DAL\bin\Debug\DAL.dll
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DAL\bin\Debug\DAL.pdb
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DAL\bin\Debug\DTO.dll
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DAL\bin\Debug\DTO.pdb
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DAL\obj\Debug\DAL.dll
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DAL\obj\Debug\DAL.pdb

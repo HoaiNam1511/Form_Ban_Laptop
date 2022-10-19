@@ -1,0 +1,6 @@
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DTO\bin\Debug\DTO.dll
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DTO\bin\Debug\DTO.pdb
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DTO\obj\Debug\DTO.dll
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\DTO\obj\Debug\DTO.pdb

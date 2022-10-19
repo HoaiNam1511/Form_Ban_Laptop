@@ -1,0 +1,12 @@
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\BUS\bin\Debug\BUS.dll
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\BUS\bin\Debug\BUS.pdb
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\BUS\bin\Debug\DAL.dll
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\BUS\bin\Debug\DTO.dll
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\BUS\bin\Debug\DAL.pdb
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\BUS\bin\Debug\DTO.pdb
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\BUS\obj\Debug\BUS.csproj.CopyComplete
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\BUS\obj\Debug\BUS.dll
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\BUS\obj\Debug\BUS.pdb
+F:\Tai Lieu Nam 3\Hoc Ki II\LapTrinhCSDL\Form_Ban_Laptop\BUS\bin\Debug\DAL.dll.config
