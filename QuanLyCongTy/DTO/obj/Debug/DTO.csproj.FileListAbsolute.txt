@@ -1,0 +1,36 @@
+E:\FirstJob\QuanLyCongTy\DTO\bin\Debug\DTO.dll
+E:\FirstJob\QuanLyCongTy\DTO\bin\Debug\DTO.pdb
+E:\FirstJob\QuanLyCongTy\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+E:\FirstJob\QuanLyCongTy\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\FirstJob\QuanLyCongTy\DTO\obj\Debug\DTO.dll
+E:\FirstJob\QuanLyCongTy\DTO\obj\Debug\DTO.pdb
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DTO\bin\Debug\DTO.dll
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DTO\bin\Debug\DTO.pdb
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DTO\obj\Debug\DTO.dll
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DTO\obj\Debug\DTO.pdb
+F:\PJ\QuanLyCongTy\DTO\bin\Debug\DTO.dll
+F:\PJ\QuanLyCongTy\DTO\bin\Debug\DTO.pdb
+F:\PJ\QuanLyCongTy\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+F:\PJ\QuanLyCongTy\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+F:\PJ\QuanLyCongTy\DTO\obj\Debug\DTO.dll
+F:\PJ\QuanLyCongTy\DTO\obj\Debug\DTO.pdb
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DTO\bin\Debug\DTO.dll
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DTO\bin\Debug\DTO.pdb
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DTO\obj\Debug\DTO.dll
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DTO\obj\Debug\DTO.pdb
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DTO\bin\Debug\DTO.dll
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DTO\bin\Debug\DTO.pdb
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DTO\obj\Debug\DTO.dll
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DTO\obj\Debug\DTO.pdb
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DTO\bin\Debug\DTO.dll
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DTO\bin\Debug\DTO.pdb
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DTO\obj\Debug\DTO.dll
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DTO\obj\Debug\DTO.pdb

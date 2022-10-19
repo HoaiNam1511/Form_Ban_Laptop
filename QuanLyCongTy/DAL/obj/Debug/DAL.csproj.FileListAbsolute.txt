@@ -1,0 +1,90 @@
+E:\FirstJob\QuanLyCongTy\DAL\bin\Debug\DAL.dll.config
+E:\FirstJob\QuanLyCongTy\DAL\bin\Debug\DAL.dll
+E:\FirstJob\QuanLyCongTy\DAL\bin\Debug\DAL.pdb
+E:\FirstJob\QuanLyCongTy\DAL\bin\Debug\DTO.dll
+E:\FirstJob\QuanLyCongTy\DAL\bin\Debug\DTO.pdb
+E:\FirstJob\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\FirstJob\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\FirstJob\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\FirstJob\QuanLyCongTy\DAL\obj\Debug\DAL.dll
+E:\FirstJob\QuanLyCongTy\DAL\obj\Debug\DAL.pdb
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DAL.dll.config
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DAL.dll
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DAL.pdb
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DTO.dll
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DTO.pdb
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.dll
+C:\Users\chuho\Downloads\FirstJob-main\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.pdb
+F:\PJ\QuanLyCongTy\DAL\bin\Debug\DAL.dll.config
+F:\PJ\QuanLyCongTy\DAL\bin\Debug\DAL.dll
+F:\PJ\QuanLyCongTy\DAL\bin\Debug\DAL.pdb
+F:\PJ\QuanLyCongTy\DAL\bin\Debug\DTO.dll
+F:\PJ\QuanLyCongTy\DAL\bin\Debug\DTO.pdb
+F:\PJ\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\PJ\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\PJ\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\PJ\QuanLyCongTy\DAL\obj\Debug\DAL.dll
+F:\PJ\QuanLyCongTy\DAL\obj\Debug\DAL.pdb
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DAL\bin\Debug\DAL.dll.config
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DAL\bin\Debug\DAL.dll
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DAL\bin\Debug\DAL.pdb
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DAL\bin\Debug\DTO.dll
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DAL\bin\Debug\DTO.pdb
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DAL\obj\Debug\DAL.dll
+E:\FirstJob\UPDATE NGAY 06-09-2022\QuanLyCongTy\DAL\obj\Debug\DAL.pdb
+F:\PJ\Git10_9\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DAL.dll.config
+F:\PJ\Git10_9\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DAL.dll
+F:\PJ\Git10_9\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DAL.pdb
+F:\PJ\Git10_9\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DTO.dll
+F:\PJ\Git10_9\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DTO.pdb
+F:\PJ\Git10_9\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\PJ\Git10_9\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\PJ\Git10_9\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\PJ\Git10_9\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.dll
+F:\PJ\Git10_9\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.pdb
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DAL\bin\Debug\DAL.dll.config
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DAL\bin\Debug\DAL.dll
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DAL\bin\Debug\DAL.pdb
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DAL\bin\Debug\DTO.dll
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DAL\bin\Debug\DTO.pdb
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DAL\obj\Debug\DAL.dll
+E:\Bai cua Nam\QlCongTy-main 10-09\QlCongTy-main\QuanLyCongTy\DAL\obj\Debug\DAL.pdb
+C:\Users\chuho\Downloads\FirstJob-main_39_09_12_09\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DAL.dll.config
+C:\Users\chuho\Downloads\FirstJob-main_39_09_12_09\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DAL.dll
+C:\Users\chuho\Downloads\FirstJob-main_39_09_12_09\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DAL.pdb
+C:\Users\chuho\Downloads\FirstJob-main_39_09_12_09\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DTO.dll
+C:\Users\chuho\Downloads\FirstJob-main_39_09_12_09\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DTO.pdb
+C:\Users\chuho\Downloads\FirstJob-main_39_09_12_09\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\chuho\Downloads\FirstJob-main_39_09_12_09\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\chuho\Downloads\FirstJob-main_39_09_12_09\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\chuho\Downloads\FirstJob-main_39_09_12_09\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.dll
+C:\Users\chuho\Downloads\FirstJob-main_39_09_12_09\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.pdb
+E:\FirstJob\update 12-09\QlCongTy-main\QuanLyCongTy\DAL\bin\Debug\DAL.dll.config
+E:\FirstJob\update 12-09\QlCongTy-main\QuanLyCongTy\DAL\bin\Debug\DAL.dll
+E:\FirstJob\update 12-09\QlCongTy-main\QuanLyCongTy\DAL\bin\Debug\DAL.pdb
+E:\FirstJob\update 12-09\QlCongTy-main\QuanLyCongTy\DAL\bin\Debug\DTO.dll
+E:\FirstJob\update 12-09\QlCongTy-main\QuanLyCongTy\DAL\bin\Debug\DTO.pdb
+E:\FirstJob\update 12-09\QlCongTy-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\FirstJob\update 12-09\QlCongTy-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\FirstJob\update 12-09\QlCongTy-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\FirstJob\update 12-09\QlCongTy-main\QuanLyCongTy\DAL\obj\Debug\DAL.dll
+E:\FirstJob\update 12-09\QlCongTy-main\QuanLyCongTy\DAL\obj\Debug\DAL.pdb
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DAL.dll.config
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DAL.dll
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DAL.pdb
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DTO.dll
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DAL\bin\Debug\DTO.pdb
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.dll
+F:\TaiLieuNam4\Pj\5_10_2022\FirstJob-main\QuanLyCongTy\DAL\obj\Debug\DAL.pdb
