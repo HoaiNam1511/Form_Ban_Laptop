@@ -16,7 +16,7 @@ namespace Form_Ban_Laptop
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_Hoa_Don());
+            Application.Run(new Form_Dang_Nhap());
         }
     }
 }

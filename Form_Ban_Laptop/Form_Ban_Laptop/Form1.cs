@@ -36,12 +36,12 @@ namespace Form_Ban_Laptop
                     DTO_NhanVien nv = new DTO_NhanVien(txtmanv.Text, txttennv.Text, txtdiachi.Text, gioitinh, txtsodt.Text, txtngaysinh.Text);
                     if (busNV.them_nhan_vien(nv))
                     {
-                        lb_thongbao.Text = "Thêm thành công";
+                        lb_thongbao_1.Text = "Thêm thành công";
                         dgvdanhsach.DataSource = busNV.lay_thong_tin_nv();
                     }
                     else
                     {
-                        lb_thongbao.Text = "Thêm thất bại";
+                        lb_thongbao_1.Text = "Thêm thất bại";
                     }
             }
 
@@ -85,12 +85,12 @@ namespace Form_Ban_Laptop
                     DTO_NhanVien nv = new DTO_NhanVien(txtmanv.Text, txttennv.Text, txtdiachi.Text, gioitinh, txtsodt.Text, txtngaysinh.Text);
                     if (busNV.sua(nv))
                     {
-                        lb_thongbao.Text = "Sửa thành công";
+                        lb_thongbao_1.Text = "Sửa thành công";
                         dgvdanhsach.DataSource = busNV.lay_thong_tin_nv();
                     }
                     else
                     {
-                        lb_thongbao.Text = "Sửa thất bại";
+                        lb_thongbao_1.Text = "Sửa thất bại";
                     }
                 
             }
@@ -106,12 +106,12 @@ namespace Form_Ban_Laptop
                     string ma = txtmanv.Text;
                     if (busNV.xoa(ma))
                     {
-                        lb_thongbao.Text = "Thêm thành công";
+                        lb_thongbao_1.Text = "Thêm thành công";
                         dgvdanhsach.DataSource = busNV.lay_thong_tin_nv();
                     }
                     else
                     {
-                        lb_thongbao.Text = "Xoá thất bại";
+                        lb_thongbao_1.Text = "Xoá thất bại";
                     }
                 }
             }
@@ -211,6 +211,29 @@ namespace Form_Ban_Laptop
         {
             this.Close();
         }
+        private void btn_nhaplai_Click(object sender, EventArgs e)
+        {
+            txtmanv.Text = "";
+            txttennv.Text = "";
+            txtsodt.Text = "";
+            txtdiachi.Text = "";
+            txtngaysinh.Text = "";
+            rdonam.Checked = true;
+        }
 
+        private void txt_tukhoa_TextChanged(object sender, EventArgs e)
+        {
+            DataTable dt = busNV.lay_thong_tin_nv();
+            DataRow[] row = dt.Select("ten_nv like '%" + txt_tukhoa.Text + "%'");
+            if (row.Length > 0)
+            {
+                DataTable dt1 = row.CopyToDataTable();
+                dgvdanhsach.DataSource = dt1;
+            }
+            else
+            {
+
+            }
+        }
     }
 }

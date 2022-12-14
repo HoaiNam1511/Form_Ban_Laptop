@@ -46,5 +46,7 @@ namespace Form_Ban_Laptop
         {
             this.Close();
         }
+
+  
     }
 }

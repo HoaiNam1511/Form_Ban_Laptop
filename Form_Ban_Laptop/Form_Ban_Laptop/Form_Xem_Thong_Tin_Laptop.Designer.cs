@@ -63,10 +63,10 @@ namespace Form_Ban_Laptop
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(392, 23);
+            this.label1.Font = new System.Drawing.Font("Century", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(439, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(353, 38);
+            this.label1.Size = new System.Drawing.Size(379, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "THÔNG TIN LAPTOP";
             // 
@@ -332,7 +332,7 @@ namespace Form_Ban_Laptop
             // 
             // btn_back
             // 
-            this.btn_back.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btn_back.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btn_back.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_back.Location = new System.Drawing.Point(35, 22);
             this.btn_back.Name = "btn_back";
@@ -346,11 +346,12 @@ namespace Form_Ban_Laptop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1266, 715);
+            this.ClientSize = new System.Drawing.Size(1300, 700);
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.box_hinhanh);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form_Xem_Thong_Tin_Laptop";
             this.Text = "Form_Xem_Thong_Tin_Laptop";
             this.Load += new System.EventHandler(this.Form_Xem_Thong_Tin_Laptop_Load);

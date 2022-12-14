@@ -15,33 +15,66 @@ namespace DAL
         {
             try
             {
-                //INNER JOIN dbo.mau_sac ON dbo.thong_tin_laptop.ma_mau = dbo.mau_sac.ma_mau INNER JOIN dbo.loai_laptop ON dbo.thong_tin_laptop.ma_loai = dbo.loai_laptop.ma_loai INNER JOIN dbo.hang_laptop ON dbo.thong_tin_laptop.ma_hang = dbo.hang_laptop.ma_hang
-                da.SelectCommand = new SqlCommand("SELECT * FROM dbo.thong_tin_laptop ", conn);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
-                return dt;
+                conn.Open();
+                string SQL = string.Format("SELECT * FROM dbo.thong_tin_laptop ");
+                da.SelectCommand = new SqlCommand(SQL, conn);
+                DataTable dt_laptop = new DataTable();
+                da.Fill(dt_laptop);
+                return dt_laptop;
             }
-            catch(Exception ex)
+            catch (Exception e)
             {
-                throw ex;
-            }  
+                throw e;
+            }
+            finally
+            {
+                conn.Close();
+            }
+
         }
         public DataTable chi_tiet_thong_tin(string ma)
         {
-            string SQL = string.Format("SELECT * FROM dbo.thong_tin_laptop INNER JOIN dbo.hang_laptop ON dbo.thong_tin_laptop.ma_hang = dbo.hang_laptop.ma_hang INNER JOIN dbo.loai_laptop ON dbo.thong_tin_laptop.ma_loai = dbo.loai_laptop.ma_loai INNER JOIN dbo.mau_sac ON dbo.thong_tin_laptop.ma_mau = dbo.mau_sac.ma_mau WHERE ma_laptop = '{0}' ",ma);
-            da.SelectCommand = new SqlCommand(SQL, conn);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            return dt;
+            try
+            {
+                conn.Open();
+                string SQL = string.Format("SELECT * FROM dbo.thong_tin_laptop INNER JOIN dbo.hang_laptop ON dbo.thong_tin_laptop.ma_hang = dbo.hang_laptop.ma_hang INNER JOIN dbo.loai_laptop ON dbo.thong_tin_laptop.ma_loai = dbo.loai_laptop.ma_loai INNER JOIN dbo.mau_sac ON dbo.thong_tin_laptop.ma_mau = dbo.mau_sac.ma_mau WHERE ma_laptop = '{0}' ", ma);
+                da.SelectCommand = new SqlCommand(SQL, conn);
+                DataTable dt_chi_tiet = new DataTable();
+                da.Fill(dt_chi_tiet);
+                return dt_chi_tiet;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                conn.Close();
+            }
+
         }
         public DataTable thong_tin_1_laptop(string ma)
         {
-            string SQL = string.Format("SELECT * FROM thong_tin_laptop WHERE ma_laptop = '{0}' ", ma);
-            da.SelectCommand = new SqlCommand(SQL, conn);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            return dt;
+            try
+            {
+                conn.Open();
+                string SQL = string.Format("SELECT * FROM thong_tin_laptop WHERE ma_laptop = '{0}' ", ma);
+                da.SelectCommand = new SqlCommand(SQL, conn);
+                DataTable dt_1_laptop = new DataTable();
+                da.Fill(dt_1_laptop);
+                return dt_1_laptop;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                conn.Close();
+            }
+
         }
+        
         public bool them_thong_tin_Laptop(DTO_Thong_Tin_Laptop tt_lap)
         {
             try

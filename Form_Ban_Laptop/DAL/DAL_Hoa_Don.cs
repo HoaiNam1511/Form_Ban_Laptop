@@ -11,14 +11,29 @@ namespace DAL
     public class DAL_Hoa_Don:DBConnect
     {
         SqlDataAdapter da = new SqlDataAdapter();
+
         public DataTable lay_thong_tin_hoa_don()
         {
-            da.SelectCommand = new SqlCommand("SELECT dbo.hoa_don_ban.ma_hoa_don,dbo.hoa_don_ban.ten_khach, dbo.hoa_don_ban.dia_chi, dbo.hoa_don_ban.so_dt, dbo.hoa_don_ban.ngay_ban, dbo.hoa_don_ban.bao_hanh, dbo.hoa_don_ban.so_luong, " +
-                "dbo.hoa_don_ban.don_gia,dbo.hoa_don_ban.tong_tien, dbo.hoa_don_ban.ma_laptop, dbo.hoa_don_ban.ma_nv, dbo.thong_tin_laptop.ten_laptop, dbo.nhan_vien.ten_nv "+
-                "FROM dbo.hoa_don_ban INNER JOIN dbo.thong_tin_laptop ON dbo.hoa_don_ban.ma_laptop = dbo.thong_tin_laptop.ma_laptop INNER JOIN dbo.nhan_vien ON dbo.hoa_don_ban.ma_nv = dbo.nhan_vien.ma_nv", conn);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            return dt;
+            try
+            {
+                conn.Open();
+                string SQL = string.Format("SELECT dbo.hoa_don_ban.ma_hoa_don,dbo.hoa_don_ban.ten_khach, dbo.hoa_don_ban.dia_chi, dbo.hoa_don_ban.so_dt, dbo.hoa_don_ban.ngay_ban, dbo.hoa_don_ban.bao_hanh, dbo.hoa_don_ban.so_luong, " +
+                "dbo.hoa_don_ban.don_gia,dbo.hoa_don_ban.tong_tien, dbo.hoa_don_ban.ma_laptop, dbo.hoa_don_ban.ma_nv, dbo.thong_tin_laptop.ten_laptop, dbo.nhan_vien.ten_nv " +
+                "FROM dbo.hoa_don_ban INNER JOIN dbo.thong_tin_laptop ON dbo.hoa_don_ban.ma_laptop = dbo.thong_tin_laptop.ma_laptop INNER JOIN dbo.nhan_vien ON dbo.hoa_don_ban.ma_nv = dbo.nhan_vien.ma_nv");
+                da.SelectCommand = new SqlCommand(SQL, conn);
+                DataTable dt_hoa_don = new DataTable();
+                da.Fill(dt_hoa_don);
+                return dt_hoa_don;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                conn.Close();
+            }
+
         }
         public bool them_hoa_don(DTO_Hoa_Don hoa_don)
         {

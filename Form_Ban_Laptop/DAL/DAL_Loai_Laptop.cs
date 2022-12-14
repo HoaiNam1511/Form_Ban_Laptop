@@ -14,10 +14,24 @@ namespace DAL
         SqlDataAdapter da = new SqlDataAdapter();
         public DataTable lay_thong_tin_Loai()
         {
-            da.SelectCommand = new SqlCommand("SELECT * FROM loai_laptop", conn);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            return dt;
+            try
+            {
+                conn.Open();
+                string SQL = string.Format("SELECT * FROM loai_laptop");
+                da.SelectCommand = new SqlCommand(SQL, conn);
+                DataTable dt_loai = new DataTable();
+                da.Fill(dt_loai);
+                return dt_loai;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                conn.Close();
+            }
+
         }
         public bool them_loai(DTO_Loai_Laptop loai)
         {

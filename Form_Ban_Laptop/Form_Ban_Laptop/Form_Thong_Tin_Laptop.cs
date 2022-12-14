@@ -13,6 +13,7 @@ using DTO;
 using BUS;
 using System.IO;
 
+
 namespace Form_Ban_Laptop
 {
     public partial class Form_Thong_Tin_Laptop : Form
@@ -28,8 +29,8 @@ namespace Form_Ban_Laptop
 
         public void Hienthi()
         {
-            DataTable dt = busThongTinLaptop.thong_tin_laptop();
-            dgvdanhsach.DataSource = dt;
+            DataTable dt_laptop = busThongTinLaptop.thong_tin_laptop();
+            dgvdanhsach.DataSource = dt_laptop;
             dgvdanhsach.Columns["ma_laptop"].HeaderText = "Mã Laptop";
             dgvdanhsach.Columns["ten_laptop"].HeaderText = "Tên";
             dgvdanhsach.Columns["gia_ban"].HeaderText = "Giá";
@@ -46,6 +47,7 @@ namespace Form_Ban_Laptop
             //dgvdanhsach.Columns["ma_mau"].Visible = false;
             //dgvdanhsach.Columns["ma_hang"].Visible = false;
         }
+
         private void Form_Thong_Tin_Laptop_Load(object sender, EventArgs e)
         {
            Hienthi();
@@ -73,9 +75,11 @@ namespace Form_Ban_Laptop
                 cbotenloai.Items.Add(r2["ten_loai"].ToString());
                 cbomaloai.Items.Add(r2["ma_loai"].ToString());
             }
+            // Them thong tin vao combobox
 
+     
         }
-
+       
         private void btnthoat_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -418,7 +422,6 @@ namespace Form_Ban_Laptop
                 }
             }
         }
-
         private void btnxoa_Click(object sender, EventArgs e)
         {
             if(txtma.Text != "")
@@ -431,7 +434,6 @@ namespace Form_Ban_Laptop
                 }
             }
         }
-
         private void btnxem_Click(object sender, EventArgs e)
         {
             Form_Xem_Thong_Tin_Laptop form_xem = new Form_Xem_Thong_Tin_Laptop();
@@ -455,6 +457,19 @@ namespace Form_Ban_Laptop
             rdo120.Checked = true;
         }
 
-      
+        private void txt_tukhoa_TextChanged(object sender, EventArgs e)
+        {
+            DataTable dt = busThongTinLaptop.thong_tin_laptop();
+            DataRow[] row = dt.Select("ma_laptop like '%" + txt_tukhoa.Text + "%'");
+            if (row.Length > 0)
+            {
+                DataTable dt1 = row.CopyToDataTable();
+                dgvdanhsach.DataSource = dt1;
+            }
+            else
+            {
+
+            }
+        }
     }
 }

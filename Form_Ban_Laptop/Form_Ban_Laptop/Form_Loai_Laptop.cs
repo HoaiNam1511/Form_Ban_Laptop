@@ -21,6 +21,7 @@ namespace Form_Ban_Laptop
         private void Form_Thong_Tin_Laptop_Load(object sender, EventArgs e)
         {
             Hienthi();
+
         }
         private void btnthem_Click(object sender, EventArgs e)
         {
@@ -29,7 +30,7 @@ namespace Form_Ban_Laptop
                 DTO_Loai_Laptop loai = new DTO_Loai_Laptop(txtmaloai.Text, txttenloai.Text);
                 if (busLoai.them_Loai(loai))
                 {
-                    lb_thongbao.Text = "Them thanh cong";
+                    lb_thongbao_1.Text = "Them thanh cong";
                     dgvdanhsach.DataSource = busLoai.thong_tin_LOAI();
                 }
             }
@@ -44,7 +45,7 @@ namespace Form_Ban_Laptop
                 DTO_Loai_Laptop loai = new DTO_Loai_Laptop(txtmaloai.Text, txttenloai.Text);
                 if (busLoai.sua_Loai(loai))
                 {
-                    lb_thongbao.Text = "Sửa thành công";
+                    lb_thongbao_1.Text = "Sửa thành công";
                     dgvdanhsach.DataSource = busLoai.thong_tin_LOAI();
                 }
             }
@@ -57,7 +58,7 @@ namespace Form_Ban_Laptop
                 string ma = txtmaloai.Text;
                 if (busLoai.xoa_Loai(ma))
                 {
-                    lb_thongbao.Text = "Xoá thành công";
+                    lb_thongbao_1.Text = "Xoá thành công";
                     dgvdanhsach.DataSource = busLoai.thong_tin_LOAI();
                 }
             }
@@ -109,6 +110,27 @@ namespace Form_Ban_Laptop
             int vitri = dgvdanhsach.CurrentCell.RowIndex;
             txtmaloai.Text = dgvdanhsach.Rows[vitri].Cells[0].Value.ToString();
             txttenloai.Text = dgvdanhsach.Rows[vitri].Cells[1].Value.ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            txtmaloai.Text = "";
+            txttenloai.Text = "";
+        }
+
+        private void txt_tukhoa_TextChanged(object sender, EventArgs e)
+        {
+            DataTable dt = busLoai.thong_tin_LOAI();
+            DataRow[] row = dt.Select("ten_loai like '%" + txt_tukhoa.Text + "%'");
+            if (row.Length > 0)
+            {
+                DataTable dt1 = row.CopyToDataTable();
+                dgvdanhsach.DataSource = dt1;
+            }
+            else
+            {
+
+            }
         }
     }
 }

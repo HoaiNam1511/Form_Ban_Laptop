@@ -33,11 +33,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,11 +57,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ds_Hoa_Don.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Hoa_Don.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_Hoa_Don_Ban.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Hoa_Don_Ban.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_Kho.cs">
+      <DependentUpon>ds_Kho.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_Kho.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Kho.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Dang_Nhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Dang_Nhap.Designer.cs">
+      <DependentUpon>Form_Dang_Nhap.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Hang.cs">
       <SubType>Form</SubType>
@@ -61,11 +93,29 @@
     <Compile Include="Form_Hang.Designer.cs">
       <DependentUpon>Form_Hang.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Hoa_Don.cs">
+    <Compile Include="Form_Kho_Hang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Hoa_Don.Designer.cs">
-      <DependentUpon>Form_Hoa_Don.cs</DependentUpon>
+    <Compile Include="Form_Kho_Hang.Designer.cs">
+      <DependentUpon>Form_Kho_Hang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Master.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Master.Designer.cs">
+      <DependentUpon>Form_Master.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_San_Pham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_San_Pham.Designer.cs">
+      <DependentUpon>Form_San_Pham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Hoa_Don_Ban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Hoa_Don_Ban.Designer.cs">
+      <DependentUpon>Form_Hoa_Don_Ban.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Loai_Laptop.cs">
       <SubType>Form</SubType>
@@ -91,17 +141,53 @@
     <Compile Include="Form_Xem_Thong_Tin_Laptop.Designer.cs">
       <DependentUpon>Form_Xem_Thong_Tin_Laptop.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hoa_Don_Ban.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Hoa_Don_Ban.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Hoa_Don_Ban_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoa_Don_Ban_Form.Designer.cs">
+      <DependentUpon>Hoa_Don_Ban_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="In_Kho_Hang_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="In_Kho_Hang_Form.Designer.cs">
+      <DependentUpon>In_Kho_Hang_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kho_Hang_RPT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Kho_Hang_RPT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_Dang_Nhap.resx">
+      <DependentUpon>Form_Dang_Nhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Hang.resx">
       <DependentUpon>Form_Hang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Hoa_Don.resx">
-      <DependentUpon>Form_Hoa_Don.cs</DependentUpon>
+    <EmbeddedResource Include="Form_Kho_Hang.resx">
+      <DependentUpon>Form_Kho_Hang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Master.resx">
+      <DependentUpon>Form_Master.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_San_Pham.resx">
+      <DependentUpon>Form_San_Pham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Hoa_Don_Ban.resx">
+      <DependentUpon>Form_Hoa_Don_Ban.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Loai_Laptop.resx">
       <DependentUpon>Form_Loai_Laptop.cs</DependentUpon>
@@ -115,6 +201,20 @@
     <EmbeddedResource Include="Form_Xem_Thong_Tin_Laptop.resx">
       <DependentUpon>Form_Xem_Thong_Tin_Laptop.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Hoa_Don_Ban.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Hoa_Don_Ban.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoa_Don_Ban_Form.resx">
+      <DependentUpon>Hoa_Don_Ban_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="In_Kho_Hang_Form.resx">
+      <DependentUpon>In_Kho_Hang_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kho_Hang_RPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Kho_Hang_RPT.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -125,6 +225,39 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="ds_Hoa_Don.xsc">
+      <DependentUpon>ds_Hoa_Don.xsd</DependentUpon>
+    </None>
+    <None Include="ds_Hoa_Don.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Hoa_Don.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ds_Hoa_Don.xss">
+      <DependentUpon>ds_Hoa_Don.xsd</DependentUpon>
+    </None>
+    <None Include="ds_Hoa_Don_Ban.xsc">
+      <DependentUpon>ds_Hoa_Don_Ban.xsd</DependentUpon>
+    </None>
+    <None Include="ds_Hoa_Don_Ban.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Hoa_Don_Ban.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ds_Hoa_Don_Ban.xss">
+      <DependentUpon>ds_Hoa_Don_Ban.xsd</DependentUpon>
+    </None>
+    <None Include="ds_Kho.xsc">
+      <DependentUpon>ds_Kho.xsd</DependentUpon>
+    </None>
+    <None Include="ds_Kho.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Kho.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ds_Kho.xss">
+      <DependentUpon>ds_Kho.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -153,6 +286,33 @@
     <None Include="Resources\them.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\logo_1.jpg" />
+    <None Include="Resources\laptop.png" />
+    <None Include="Resources\laptop1.png" />
+    <None Include="Resources\icon_laptop.png" />
+    <None Include="Resources\group.png" />
+    <None Include="Resources\icon_admin.png" />
+    <None Include="Resources\bill.png" />
+    <None Include="Resources\bill2_24px.png" />
+    <None Include="Resources\bill2.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\bill4.png" />
+    <None Include="Resources\laptop2.png" />
+    <None Include="Resources\Kho.png" />
+    <None Include="Resources\nhanvien.png" />
+    <None Include="Resources\hang.png" />
+    <None Include="Resources\mau.png" />
+    <None Include="Resources\loai.png" />
+    <None Include="Resources\laptop_White.png" />
+    <None Include="Resources\addpng.png" />
+    <None Include="Resources\addpng1.png" />
+    <None Include="Resources\logout.png" />
+    <None Include="Resources\logout1.png" />
+    <None Include="Resources\background.jpg" />
+    <None Include="Resources\bg1.jpg" />
+    <None Include="Resources\bg2.png" />
+    <None Include="Resources\bg3.jpg" />
+    <None Include="Resources\bg4.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -166,6 +326,9 @@
     <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -19,7 +19,6 @@ namespace DTO
         int tong_tien;
         string ma_laptop;
         string ma_nv;
-
         public string Ma_hoa_don { get => ma_hoa_don; set => ma_hoa_don = value; }
         public string Ten_khach { get => ten_khach; set => ten_khach = value; }
         public string Dia_chi { get => dia_chi; set => dia_chi = value; }

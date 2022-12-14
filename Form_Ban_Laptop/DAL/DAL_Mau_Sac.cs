@@ -12,12 +12,27 @@ namespace DAL
     public class DAL_Mau_Sac:DBConnect
     {
         SqlDataAdapter da = new SqlDataAdapter();
+
         public DataTable lay_thong_tin_Mau()
         {
-            da.SelectCommand = new SqlCommand("SELECT * FROM mau_sac ", conn);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            return dt;
+            try
+            {
+                conn.Open();
+                string SQL = string.Format("SELECT * FROM mau_sac");
+                da.SelectCommand = new SqlCommand(SQL, conn);
+                DataTable dt_mau = new DataTable();
+                da.Fill(dt_mau);
+                return dt_mau;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                conn.Close();
+            }
+
         }
         public bool them_mau_sac(DTO_Mau_Sac mau)
         {

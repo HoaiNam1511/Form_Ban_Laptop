@@ -11,12 +11,27 @@ namespace DAL
     public class DAL_Hang:DBConnect
     {
         SqlDataAdapter da = new SqlDataAdapter();
+ 
         public DataTable lay_thong_tin_HANG()
         {
-            da.SelectCommand = new SqlCommand("SELECT * FROM hang_laptop", conn);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            return dt;
+            try
+            {
+                conn.Open();
+                string SQL = string.Format("SELECT * FROM hang_laptop");
+                da.SelectCommand = new SqlCommand(SQL, conn);
+                DataTable tb_tai_khoan = new DataTable();
+                da.Fill(tb_tai_khoan);
+                return tb_tai_khoan;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                conn.Close();
+            }
+
         }
         public bool them_hang(DTO_Hang hang)
         {

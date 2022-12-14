@@ -45,14 +45,16 @@ namespace Form_Ban_Laptop
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_tukhoa = new System.Windows.Forms.TextBox();
             this.btnthem = new System.Windows.Forms.Button();
             this.btnsua = new System.Windows.Forms.Button();
             this.btnxoa = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn_nhaplai = new System.Windows.Forms.Button();
             this.btnthoat = new System.Windows.Forms.Button();
             this.dgvdanhsach = new System.Windows.Forms.DataGridView();
             this.lb_thongbao = new System.Windows.Forms.Label();
+            this.lb_thongbao_1 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvdanhsach)).BeginInit();
             this.SuspendLayout();
@@ -60,10 +62,10 @@ namespace Form_Ban_Laptop
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(357, 22);
+            this.label1.Font = new System.Drawing.Font("Century", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(490, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(313, 38);
+            this.label1.Size = new System.Drawing.Size(341, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "BẢNG NHÂN VIÊN";
             // 
@@ -83,7 +85,7 @@ namespace Form_Ban_Laptop
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(29, 72);
+            this.groupBox1.Location = new System.Drawing.Point(161, 91);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(958, 211);
             this.groupBox1.TabIndex = 1;
@@ -93,7 +95,7 @@ namespace Form_Ban_Laptop
             // rdonu
             // 
             this.rdonu.AutoSize = true;
-            this.rdonu.Location = new System.Drawing.Point(781, 149);
+            this.rdonu.Location = new System.Drawing.Point(707, 149);
             this.rdonu.Name = "rdonu";
             this.rdonu.Size = new System.Drawing.Size(51, 24);
             this.rdonu.TabIndex = 12;
@@ -104,7 +106,7 @@ namespace Form_Ban_Laptop
             // rdonam
             // 
             this.rdonam.AutoSize = true;
-            this.rdonam.Location = new System.Drawing.Point(651, 149);
+            this.rdonam.Location = new System.Drawing.Point(577, 149);
             this.rdonam.Name = "rdonam";
             this.rdonam.Size = new System.Drawing.Size(65, 24);
             this.rdonam.TabIndex = 11;
@@ -114,7 +116,7 @@ namespace Form_Ban_Laptop
             // 
             // txtngaysinh
             // 
-            this.txtngaysinh.Location = new System.Drawing.Point(651, 97);
+            this.txtngaysinh.Location = new System.Drawing.Point(577, 97);
             this.txtngaysinh.MaxLength = 10;
             this.txtngaysinh.Name = "txtngaysinh";
             this.txtngaysinh.Size = new System.Drawing.Size(236, 27);
@@ -122,7 +124,7 @@ namespace Form_Ban_Laptop
             // 
             // txtdiachi
             // 
-            this.txtdiachi.Location = new System.Drawing.Point(651, 49);
+            this.txtdiachi.Location = new System.Drawing.Point(577, 49);
             this.txtdiachi.MaxLength = 50;
             this.txtdiachi.Name = "txtdiachi";
             this.txtdiachi.Size = new System.Drawing.Size(236, 27);
@@ -130,33 +132,33 @@ namespace Form_Ban_Laptop
             // 
             // txtsodt
             // 
-            this.txtsodt.Location = new System.Drawing.Point(221, 140);
+            this.txtsodt.Location = new System.Drawing.Point(205, 140);
             this.txtsodt.MaxLength = 11;
             this.txtsodt.Name = "txtsodt";
-            this.txtsodt.Size = new System.Drawing.Size(236, 27);
+            this.txtsodt.Size = new System.Drawing.Size(201, 27);
             this.txtsodt.TabIndex = 8;
             this.txtsodt.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtsodt_KeyPress);
             // 
             // txttennv
             // 
-            this.txttennv.Location = new System.Drawing.Point(221, 97);
+            this.txttennv.Location = new System.Drawing.Point(205, 97);
             this.txttennv.MaxLength = 25;
             this.txttennv.Name = "txttennv";
-            this.txttennv.Size = new System.Drawing.Size(236, 27);
+            this.txttennv.Size = new System.Drawing.Size(201, 27);
             this.txttennv.TabIndex = 7;
             // 
             // txtmanv
             // 
-            this.txtmanv.Location = new System.Drawing.Point(221, 49);
+            this.txtmanv.Location = new System.Drawing.Point(205, 49);
             this.txtmanv.MaxLength = 10;
             this.txtmanv.Name = "txtmanv";
-            this.txtmanv.Size = new System.Drawing.Size(236, 27);
+            this.txtmanv.Size = new System.Drawing.Size(201, 27);
             this.txtmanv.TabIndex = 6;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(544, 149);
+            this.label7.Location = new System.Drawing.Point(470, 149);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(76, 20);
             this.label7.TabIndex = 5;
@@ -165,7 +167,7 @@ namespace Form_Ban_Laptop
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(544, 97);
+            this.label6.Location = new System.Drawing.Point(470, 97);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(83, 20);
             this.label6.TabIndex = 4;
@@ -174,7 +176,7 @@ namespace Form_Ban_Laptop
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(544, 49);
+            this.label5.Location = new System.Drawing.Point(470, 49);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(61, 20);
             this.label5.TabIndex = 3;
@@ -211,25 +213,26 @@ namespace Form_Ban_Laptop
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(63, 311);
+            this.label8.Location = new System.Drawing.Point(195, 330);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(153, 20);
             this.label8.TabIndex = 2;
             this.label8.Text = "Tìm kiếm nhân viên";
             // 
-            // textBox4
+            // txt_tukhoa
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(250, 304);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(467, 27);
-            this.textBox4.TabIndex = 13;
+            this.txt_tukhoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_tukhoa.Location = new System.Drawing.Point(382, 323);
+            this.txt_tukhoa.Name = "txt_tukhoa";
+            this.txt_tukhoa.Size = new System.Drawing.Size(467, 27);
+            this.txt_tukhoa.TabIndex = 13;
+            this.txt_tukhoa.TextChanged += new System.EventHandler(this.txt_tukhoa_TextChanged);
             // 
             // btnthem
             // 
-            this.btnthem.BackColor = System.Drawing.SystemColors.Info;
+            this.btnthem.BackColor = System.Drawing.Color.AliceBlue;
             this.btnthem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnthem.Location = new System.Drawing.Point(129, 354);
+            this.btnthem.Location = new System.Drawing.Point(258, 369);
             this.btnthem.Name = "btnthem";
             this.btnthem.Size = new System.Drawing.Size(111, 39);
             this.btnthem.TabIndex = 14;
@@ -239,9 +242,9 @@ namespace Form_Ban_Laptop
             // 
             // btnsua
             // 
-            this.btnsua.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnsua.BackColor = System.Drawing.Color.LightSkyBlue;
             this.btnsua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsua.Location = new System.Drawing.Point(281, 354);
+            this.btnsua.Location = new System.Drawing.Point(410, 369);
             this.btnsua.Name = "btnsua";
             this.btnsua.Size = new System.Drawing.Size(111, 39);
             this.btnsua.TabIndex = 15;
@@ -251,9 +254,9 @@ namespace Form_Ban_Laptop
             // 
             // btnxoa
             // 
-            this.btnxoa.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnxoa.BackColor = System.Drawing.Color.LightBlue;
             this.btnxoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnxoa.Location = new System.Drawing.Point(439, 354);
+            this.btnxoa.Location = new System.Drawing.Point(568, 369);
             this.btnxoa.Name = "btnxoa";
             this.btnxoa.Size = new System.Drawing.Size(111, 39);
             this.btnxoa.TabIndex = 16;
@@ -261,22 +264,23 @@ namespace Form_Ban_Laptop
             this.btnxoa.UseVisualStyleBackColor = false;
             this.btnxoa.Click += new System.EventHandler(this.btnxoa_Click);
             // 
-            // button4
+            // btn_nhaplai
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(606, 354);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(111, 39);
-            this.button4.TabIndex = 17;
-            this.button4.Text = "Huỷ";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btn_nhaplai.BackColor = System.Drawing.Color.PowderBlue;
+            this.btn_nhaplai.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_nhaplai.Location = new System.Drawing.Point(735, 369);
+            this.btn_nhaplai.Name = "btn_nhaplai";
+            this.btn_nhaplai.Size = new System.Drawing.Size(111, 39);
+            this.btn_nhaplai.TabIndex = 17;
+            this.btn_nhaplai.Text = "Làm mới";
+            this.btn_nhaplai.UseVisualStyleBackColor = false;
+            this.btn_nhaplai.Click += new System.EventHandler(this.btn_nhaplai_Click);
             // 
             // btnthoat
             // 
-            this.btnthoat.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnthoat.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnthoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnthoat.Location = new System.Drawing.Point(772, 354);
+            this.btnthoat.Location = new System.Drawing.Point(901, 369);
             this.btnthoat.Name = "btnthoat";
             this.btnthoat.Size = new System.Drawing.Size(111, 39);
             this.btnthoat.TabIndex = 18;
@@ -286,8 +290,9 @@ namespace Form_Ban_Laptop
             // 
             // dgvdanhsach
             // 
+            this.dgvdanhsach.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvdanhsach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvdanhsach.Location = new System.Drawing.Point(29, 446);
+            this.dgvdanhsach.Location = new System.Drawing.Point(161, 465);
             this.dgvdanhsach.Name = "dgvdanhsach";
             this.dgvdanhsach.RowHeadersWidth = 51;
             this.dgvdanhsach.RowTemplate.Height = 24;
@@ -298,27 +303,50 @@ namespace Form_Ban_Laptop
             // lb_thongbao
             // 
             this.lb_thongbao.AutoSize = true;
-            this.lb_thongbao.Location = new System.Drawing.Point(129, 400);
+            this.lb_thongbao.Location = new System.Drawing.Point(55, 337);
             this.lb_thongbao.Name = "lb_thongbao";
             this.lb_thongbao.Size = new System.Drawing.Size(0, 17);
             this.lb_thongbao.TabIndex = 20;
+            // 
+            // lb_thongbao_1
+            // 
+            this.lb_thongbao_1.AutoSize = true;
+            this.lb_thongbao_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_thongbao_1.Location = new System.Drawing.Point(362, 428);
+            this.lb_thongbao_1.Name = "lb_thongbao_1";
+            this.lb_thongbao_1.Size = new System.Drawing.Size(14, 20);
+            this.lb_thongbao_1.TabIndex = 75;
+            this.lb_thongbao_1.Text = ":";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(261, 428);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(87, 20);
+            this.label14.TabIndex = 74;
+            this.label14.Text = "Thông báo";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1034, 706);
+            this.ClientSize = new System.Drawing.Size(1300, 700);
+            this.Controls.Add(this.lb_thongbao_1);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.lb_thongbao);
             this.Controls.Add(this.dgvdanhsach);
             this.Controls.Add(this.btnthoat);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btn_nhaplai);
             this.Controls.Add(this.btnxoa);
             this.Controls.Add(this.btnsua);
             this.Controls.Add(this.btnthem);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txt_tukhoa);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -348,14 +376,16 @@ namespace Form_Ban_Laptop
         private System.Windows.Forms.RadioButton rdonu;
         private System.Windows.Forms.RadioButton rdonam;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt_tukhoa;
         private System.Windows.Forms.Button btnthem;
         private System.Windows.Forms.Button btnsua;
         private System.Windows.Forms.Button btnxoa;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btn_nhaplai;
         private System.Windows.Forms.Button btnthoat;
         private System.Windows.Forms.DataGridView dgvdanhsach;
         private System.Windows.Forms.Label lb_thongbao;
+        private System.Windows.Forms.Label lb_thongbao_1;
+        private System.Windows.Forms.Label label14;
     }
 }
 

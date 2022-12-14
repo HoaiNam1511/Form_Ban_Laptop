@@ -36,7 +36,7 @@ namespace Form_Ban_Laptop
             this.btnxoa = new System.Windows.Forms.Button();
             this.btnsua = new System.Windows.Forms.Button();
             this.btnthem = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_tukhoa = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -54,7 +54,6 @@ namespace Form_Ban_Laptop
             this.btnUpload = new System.Windows.Forms.Button();
             this.txtFile = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.box_hinhanh = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.ckb_magie = new System.Windows.Forms.CheckBox();
             this.ckb_nhom = new System.Windows.Forms.CheckBox();
@@ -80,37 +79,39 @@ namespace Form_Ban_Laptop
             this.lb_thongbao_1 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btn_resert = new System.Windows.Forms.Button();
+            this.box_hinhanh = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvdanhsach)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.box_hinhanh)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.box_hinhanh)).BeginInit();
             this.SuspendLayout();
             // 
             // lb_thongbao
             // 
             this.lb_thongbao.AutoSize = true;
-            this.lb_thongbao.Location = new System.Drawing.Point(183, 572);
+            this.lb_thongbao.Location = new System.Drawing.Point(480, 607);
             this.lb_thongbao.Name = "lb_thongbao";
             this.lb_thongbao.Size = new System.Drawing.Size(0, 17);
             this.lb_thongbao.TabIndex = 31;
             // 
             // dgvdanhsach
             // 
+            this.dgvdanhsach.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvdanhsach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvdanhsach.Location = new System.Drawing.Point(51, 627);
+            this.dgvdanhsach.Location = new System.Drawing.Point(105, 660);
             this.dgvdanhsach.Name = "dgvdanhsach";
             this.dgvdanhsach.RowHeadersWidth = 51;
             this.dgvdanhsach.RowTemplate.Height = 24;
-            this.dgvdanhsach.Size = new System.Drawing.Size(1287, 187);
+            this.dgvdanhsach.Size = new System.Drawing.Size(1094, 187);
             this.dgvdanhsach.TabIndex = 30;
             this.dgvdanhsach.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvdanhsach_CellClick);
             // 
             // btnthoat
             // 
-            this.btnthoat.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnthoat.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnthoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnthoat.Location = new System.Drawing.Point(1040, 538);
+            this.btnthoat.Location = new System.Drawing.Point(956, 573);
             this.btnthoat.Name = "btnthoat";
             this.btnthoat.Size = new System.Drawing.Size(111, 39);
             this.btnthoat.TabIndex = 29;
@@ -122,7 +123,7 @@ namespace Form_Ban_Laptop
             // 
             this.btnxem.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnxem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnxem.Location = new System.Drawing.Point(874, 538);
+            this.btnxem.Location = new System.Drawing.Point(814, 573);
             this.btnxem.Name = "btnxem";
             this.btnxem.Size = new System.Drawing.Size(111, 39);
             this.btnxem.TabIndex = 28;
@@ -132,9 +133,9 @@ namespace Form_Ban_Laptop
             // 
             // btnxoa
             // 
-            this.btnxoa.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnxoa.BackColor = System.Drawing.Color.LightBlue;
             this.btnxoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnxoa.Location = new System.Drawing.Point(541, 538);
+            this.btnxoa.Location = new System.Drawing.Point(521, 573);
             this.btnxoa.Name = "btnxoa";
             this.btnxoa.Size = new System.Drawing.Size(111, 39);
             this.btnxoa.TabIndex = 27;
@@ -144,9 +145,9 @@ namespace Form_Ban_Laptop
             // 
             // btnsua
             // 
-            this.btnsua.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnsua.BackColor = System.Drawing.Color.LightSkyBlue;
             this.btnsua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsua.Location = new System.Drawing.Point(383, 538);
+            this.btnsua.Location = new System.Drawing.Point(384, 573);
             this.btnsua.Name = "btnsua";
             this.btnsua.Size = new System.Drawing.Size(111, 39);
             this.btnsua.TabIndex = 26;
@@ -156,9 +157,9 @@ namespace Form_Ban_Laptop
             // 
             // btnthem
             // 
-            this.btnthem.BackColor = System.Drawing.SystemColors.Info;
+            this.btnthem.BackColor = System.Drawing.Color.AliceBlue;
             this.btnthem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnthem.Location = new System.Drawing.Point(231, 538);
+            this.btnthem.Location = new System.Drawing.Point(246, 573);
             this.btnthem.Name = "btnthem";
             this.btnthem.Size = new System.Drawing.Size(111, 39);
             this.btnthem.TabIndex = 25;
@@ -166,31 +167,32 @@ namespace Form_Ban_Laptop
             this.btnthem.UseVisualStyleBackColor = false;
             this.btnthem.Click += new System.EventHandler(this.btnthem_Click);
             // 
-            // textBox4
+            // txt_tukhoa
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(483, 488);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(467, 27);
-            this.textBox4.TabIndex = 24;
+            this.txt_tukhoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_tukhoa.Location = new System.Drawing.Point(458, 510);
+            this.txt_tukhoa.Name = "txt_tukhoa";
+            this.txt_tukhoa.Size = new System.Drawing.Size(467, 27);
+            this.txt_tukhoa.TabIndex = 24;
+            this.txt_tukhoa.TextChanged += new System.EventHandler(this.txt_tukhoa_TextChanged);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(296, 495);
+            this.label8.Location = new System.Drawing.Point(311, 513);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(153, 20);
+            this.label8.Size = new System.Drawing.Size(115, 20);
             this.label8.TabIndex = 23;
-            this.label8.Text = "Tìm kiếm nhân viên";
+            this.label8.Text = "Tìm mã laptop";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(476, 9);
+            this.label1.Font = new System.Drawing.Font("Century", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(402, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(461, 38);
+            this.label1.Size = new System.Drawing.Size(492, 39);
             this.label1.TabIndex = 21;
             this.label1.Text = "BẢNG THÔNG TIN LAPTOP";
             // 
@@ -241,34 +243,34 @@ namespace Form_Ban_Laptop
             // 
             // txtma
             // 
-            this.txtma.Location = new System.Drawing.Point(193, 49);
+            this.txtma.Location = new System.Drawing.Point(156, 46);
             this.txtma.MaxLength = 10;
             this.txtma.Name = "txtma";
-            this.txtma.Size = new System.Drawing.Size(236, 27);
+            this.txtma.Size = new System.Drawing.Size(189, 27);
             this.txtma.TabIndex = 6;
             // 
             // txtten
             // 
-            this.txtten.Location = new System.Drawing.Point(193, 97);
+            this.txtten.Location = new System.Drawing.Point(156, 94);
             this.txtten.MaxLength = 25;
             this.txtten.Name = "txtten";
-            this.txtten.Size = new System.Drawing.Size(236, 27);
+            this.txtten.Size = new System.Drawing.Size(189, 27);
             this.txtten.TabIndex = 7;
             // 
             // txtgia
             // 
-            this.txtgia.Location = new System.Drawing.Point(193, 140);
+            this.txtgia.Location = new System.Drawing.Point(156, 137);
             this.txtgia.MaxLength = 11;
             this.txtgia.Name = "txtgia";
-            this.txtgia.Size = new System.Drawing.Size(236, 27);
+            this.txtgia.Size = new System.Drawing.Size(189, 27);
             this.txtgia.TabIndex = 8;
             // 
             // txtram
             // 
-            this.txtram.Location = new System.Drawing.Point(193, 294);
+            this.txtram.Location = new System.Drawing.Point(156, 291);
             this.txtram.MaxLength = 50;
             this.txtram.Name = "txtram";
-            this.txtram.Size = new System.Drawing.Size(236, 27);
+            this.txtram.Size = new System.Drawing.Size(189, 27);
             this.txtram.TabIndex = 9;
             // 
             // rdo120
@@ -323,19 +325,18 @@ namespace Form_Ban_Laptop
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(51, 62);
+            this.groupBox1.Location = new System.Drawing.Point(63, 76);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1287, 406);
+            this.groupBox1.Size = new System.Drawing.Size(1156, 418);
             this.groupBox1.TabIndex = 22;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin laptop";
-
             // 
             // btnUpload
             // 
-            this.btnUpload.Location = new System.Drawing.Point(1121, 354);
+            this.btnUpload.Location = new System.Drawing.Point(954, 348);
             this.btnUpload.Name = "btnUpload";
-            this.btnUpload.Size = new System.Drawing.Size(118, 30);
+            this.btnUpload.Size = new System.Drawing.Size(84, 30);
             this.btnUpload.TabIndex = 30;
             this.btnUpload.Text = "Upload";
             this.btnUpload.UseVisualStyleBackColor = true;
@@ -343,28 +344,19 @@ namespace Form_Ban_Laptop
             // 
             // txtFile
             // 
-            this.txtFile.Location = new System.Drawing.Point(603, 355);
+            this.txtFile.Location = new System.Drawing.Point(488, 348);
             this.txtFile.Name = "txtFile";
-            this.txtFile.Size = new System.Drawing.Size(497, 27);
+            this.txtFile.Size = new System.Drawing.Size(447, 27);
             this.txtFile.TabIndex = 29;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(494, 358);
+            this.label13.Location = new System.Drawing.Point(379, 351);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(64, 20);
             this.label13.TabIndex = 28;
             this.label13.Text = "Tên file";
-            // 
-            // box_hinhanh
-            // 
-            this.box_hinhanh.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.box_hinhanh.Location = new System.Drawing.Point(1003, 188);
-            this.box_hinhanh.Name = "box_hinhanh";
-            this.box_hinhanh.Size = new System.Drawing.Size(236, 144);
-            this.box_hinhanh.TabIndex = 27;
-            this.box_hinhanh.TabStop = false;
             // 
             // groupBox3
             // 
@@ -372,7 +364,7 @@ namespace Form_Ban_Laptop
             this.groupBox3.Controls.Add(this.ckb_nhom);
             this.groupBox3.Controls.Add(this.ckb_nhua);
             this.groupBox3.Controls.Add(this.ckb_kimloai);
-            this.groupBox3.Location = new System.Drawing.Point(477, 167);
+            this.groupBox3.Location = new System.Drawing.Point(374, 167);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(339, 116);
             this.groupBox3.TabIndex = 16;
@@ -422,34 +414,34 @@ namespace Form_Ban_Laptop
             // cbomaloai
             // 
             this.cbomaloai.FormattingEnabled = true;
-            this.cbomaloai.Location = new System.Drawing.Point(193, 350);
+            this.cbomaloai.Location = new System.Drawing.Point(156, 347);
             this.cbomaloai.Name = "cbomaloai";
-            this.cbomaloai.Size = new System.Drawing.Size(236, 28);
+            this.cbomaloai.Size = new System.Drawing.Size(189, 28);
             this.cbomaloai.TabIndex = 26;
             this.cbomaloai.Visible = false;
             // 
             // cbotenloai
             // 
             this.cbotenloai.FormattingEnabled = true;
-            this.cbotenloai.Location = new System.Drawing.Point(1003, 41);
+            this.cbotenloai.Location = new System.Drawing.Point(811, 38);
             this.cbotenloai.Name = "cbotenloai";
-            this.cbotenloai.Size = new System.Drawing.Size(236, 28);
+            this.cbotenloai.Size = new System.Drawing.Size(193, 28);
             this.cbotenloai.TabIndex = 25;
             this.cbotenloai.VisibleChanged += new System.EventHandler(this.Form_Thong_Tin_Laptop_Load);
             // 
             // cbomamau
             // 
             this.cbomamau.FormattingEnabled = true;
-            this.cbomamau.Location = new System.Drawing.Point(193, 350);
+            this.cbomamau.Location = new System.Drawing.Point(156, 347);
             this.cbomamau.Name = "cbomamau";
-            this.cbomamau.Size = new System.Drawing.Size(236, 28);
+            this.cbomamau.Size = new System.Drawing.Size(189, 28);
             this.cbomamau.TabIndex = 24;
             this.cbomamau.Visible = false;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(868, 41);
+            this.label12.Location = new System.Drawing.Point(730, 41);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(41, 20);
             this.label12.TabIndex = 23;
@@ -458,15 +450,15 @@ namespace Form_Ban_Laptop
             // cbotenmau
             // 
             this.cbotenmau.FormattingEnabled = true;
-            this.cbotenmau.Location = new System.Drawing.Point(1003, 89);
+            this.cbotenmau.Location = new System.Drawing.Point(811, 86);
             this.cbotenmau.Name = "cbotenmau";
-            this.cbotenmau.Size = new System.Drawing.Size(236, 28);
+            this.cbotenmau.Size = new System.Drawing.Size(193, 28);
             this.cbotenmau.TabIndex = 22;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(868, 97);
+            this.label11.Location = new System.Drawing.Point(730, 97);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(41, 20);
             this.label11.TabIndex = 21;
@@ -475,16 +467,16 @@ namespace Form_Ban_Laptop
             // cbomahang
             // 
             this.cbomahang.FormattingEnabled = true;
-            this.cbomahang.Location = new System.Drawing.Point(193, 350);
+            this.cbomahang.Location = new System.Drawing.Point(156, 347);
             this.cbomahang.Name = "cbomahang";
-            this.cbomahang.Size = new System.Drawing.Size(236, 28);
+            this.cbomahang.Size = new System.Drawing.Size(189, 28);
             this.cbomahang.TabIndex = 20;
             this.cbomahang.Visible = false;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(868, 146);
+            this.label10.Location = new System.Drawing.Point(730, 146);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(49, 20);
             this.label10.TabIndex = 19;
@@ -493,17 +485,17 @@ namespace Form_Ban_Laptop
             // cbotenhang
             // 
             this.cbotenhang.FormattingEnabled = true;
-            this.cbotenhang.Location = new System.Drawing.Point(1003, 143);
+            this.cbotenhang.Location = new System.Drawing.Point(811, 140);
             this.cbotenhang.Name = "cbotenhang";
-            this.cbotenhang.Size = new System.Drawing.Size(236, 28);
+            this.cbotenhang.Size = new System.Drawing.Size(193, 28);
             this.cbotenhang.TabIndex = 18;
             // 
             // txtcard
             // 
-            this.txtcard.Location = new System.Drawing.Point(193, 245);
+            this.txtcard.Location = new System.Drawing.Point(156, 242);
             this.txtcard.MaxLength = 10;
             this.txtcard.Name = "txtcard";
-            this.txtcard.Size = new System.Drawing.Size(236, 27);
+            this.txtcard.Size = new System.Drawing.Size(189, 27);
             this.txtcard.TabIndex = 17;
             // 
             // label7
@@ -522,7 +514,7 @@ namespace Form_Ban_Laptop
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.rdo120);
             this.groupBox2.Controls.Add(this.rdo256);
-            this.groupBox2.Location = new System.Drawing.Point(477, 41);
+            this.groupBox2.Location = new System.Drawing.Point(374, 41);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(339, 116);
             this.groupBox2.TabIndex = 15;
@@ -553,10 +545,10 @@ namespace Form_Ban_Laptop
             // 
             // txtcpu
             // 
-            this.txtcpu.Location = new System.Drawing.Point(193, 198);
+            this.txtcpu.Location = new System.Drawing.Point(156, 195);
             this.txtcpu.MaxLength = 10;
             this.txtcpu.Name = "txtcpu";
-            this.txtcpu.Size = new System.Drawing.Size(236, 27);
+            this.txtcpu.Size = new System.Drawing.Size(189, 27);
             this.txtcpu.TabIndex = 14;
             // 
             // label9
@@ -572,7 +564,7 @@ namespace Form_Ban_Laptop
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(136, 588);
+            this.label14.Location = new System.Drawing.Point(242, 628);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(87, 20);
             this.label14.TabIndex = 32;
@@ -582,7 +574,7 @@ namespace Form_Ban_Laptop
             // 
             this.lb_thongbao_1.AutoSize = true;
             this.lb_thongbao_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_thongbao_1.Location = new System.Drawing.Point(240, 588);
+            this.lb_thongbao_1.Location = new System.Drawing.Point(343, 628);
             this.lb_thongbao_1.Name = "lb_thongbao_1";
             this.lb_thongbao_1.Size = new System.Drawing.Size(14, 20);
             this.lb_thongbao_1.TabIndex = 33;
@@ -590,21 +582,30 @@ namespace Form_Ban_Laptop
             // 
             // btn_resert
             // 
-            this.btn_resert.BackColor = System.Drawing.Color.DarkOrange;
+            this.btn_resert.BackColor = System.Drawing.Color.PowderBlue;
             this.btn_resert.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_resert.Location = new System.Drawing.Point(702, 538);
+            this.btn_resert.Location = new System.Drawing.Point(665, 573);
             this.btn_resert.Name = "btn_resert";
             this.btn_resert.Size = new System.Drawing.Size(111, 39);
             this.btn_resert.TabIndex = 34;
-            this.btn_resert.Text = "Nhập lại";
+            this.btn_resert.Text = "Làm mới";
             this.btn_resert.UseVisualStyleBackColor = false;
             this.btn_resert.Click += new System.EventHandler(this.btn_resert_Click);
+            // 
+            // box_hinhanh
+            // 
+            this.box_hinhanh.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.box_hinhanh.Location = new System.Drawing.Point(811, 184);
+            this.box_hinhanh.Name = "box_hinhanh";
+            this.box_hinhanh.Size = new System.Drawing.Size(236, 144);
+            this.box_hinhanh.TabIndex = 27;
+            this.box_hinhanh.TabStop = false;
             // 
             // Form_Thong_Tin_Laptop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1418, 855);
+            this.ClientSize = new System.Drawing.Size(1300, 850);
             this.Controls.Add(this.btn_resert);
             this.Controls.Add(this.lb_thongbao_1);
             this.Controls.Add(this.label14);
@@ -615,21 +616,22 @@ namespace Form_Ban_Laptop
             this.Controls.Add(this.btnxoa);
             this.Controls.Add(this.btnsua);
             this.Controls.Add(this.btnthem);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txt_tukhoa);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form_Thong_Tin_Laptop";
             this.Text = "Form_Thong_Tin_Laptop";
             this.Load += new System.EventHandler(this.Form_Thong_Tin_Laptop_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvdanhsach)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.box_hinhanh)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.box_hinhanh)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -644,7 +646,7 @@ namespace Form_Ban_Laptop
         private System.Windows.Forms.Button btnxoa;
         private System.Windows.Forms.Button btnsua;
         private System.Windows.Forms.Button btnthem;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt_tukhoa;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
